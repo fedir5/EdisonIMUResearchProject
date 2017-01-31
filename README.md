@@ -3,7 +3,7 @@
 learning GitHub  
   
 All the Code Provided is the Code on the Edison board, I haven't included the Java cocde used to display the results yet :/  
-but the code below calculated the sensor's orientation, and begind finding the joint orientations  
+but the code below calculates the sensor's orientation, and begins finding the joint orientations  
   
 Files that initially read off sensor data provided by Sparkfun  
 from: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library:  
