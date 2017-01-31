@@ -1,25 +1,25 @@
 # EdisonIMUResearchProject
 
-learning GitHub
-
-All the Code Provided is the Code on the Edison board, I haven't included the Java cocde used to display the results yet :/
-but the code below calculated the sensor's orientation, and begind finding the joint orientations
-
-Files that initially read off sensor data provided by Sparkfun
+learning GitHub  
+  
+All the Code Provided is the Code on the Edison board, I haven't included the Java cocde used to display the results yet :/  
+but the code below calculated the sensor's orientation, and begind finding the joint orientations  
+  
+Files that initially read off sensor data provided by Sparkfun  
 from: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library:  
-
-**LSM9DS0_AHRS.cpp
-LSM9DS0_AHRS.h
-SFE_LSM9DS0.cpp
-SFE_LSM9DS0.h
-SparkFun_9DOF_Edison_Block_Example.cpp**
-^Only the SparkFun_9DOF_Edison_Block_Example.cpp code has been heavily edited, the rest are  untouched and are used to pill sensor data from the 9DOF sensor before sending it onwards
-
-Data is first passed on to Madgwick's algorithms taken
-from:http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/
-which compute the orientation of the sensor
-**MadgwickAHRS.c
-MadgwickAHRS.h**
+**LSM9DS0_AHRS.cpp**  
+**LSM9DS0_AHRS.h**  
+**SFE_LSM9DS0.cpp**  
+**SFE_LSM9DS0.h**  
+**SparkFun_9DOF_Edison_Block_Example.cpp**  
+^Only the SparkFun_9DOF_Edison_Block_Example.cpp code has been heavily edited, the rest are  untouched and are  
+used to pill sensor data from the 9DOF sensor before sending it onwards  
+  
+Data is first passed on to Madgwick's algorithms taken  
+from:http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/  
+which compute the orientation of the sensor  
+**MadgwickAHRS.c** 
+**MadgwickAHRS.h**  
 I've edited the Madgwick file to take custom time values between sensor readings instead of a known delta_t
 
 **Quaternion.c** 
