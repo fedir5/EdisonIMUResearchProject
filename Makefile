@@ -1,0 +1,2 @@
+test: SparkFun_9DOF_Edison_Block_Example.cpp SFE_LSM9DS0.cpp MadgwickAHRS.c Quaternion.c outputMosquitto.cpp JointAxisOrientation.cpp TemporarySecondStationarySensor.cpp
+	g++ -o test SparkFun_9DOF_Edison_Block_Example.cpp SFE_LSM9DS0.cpp MadgwickAHRS.c Quaternion.c outputMosquitto.cpp JointAxisOrientation.cpp TemporarySecondStationarySensor.cpp -lmraa -lmosquittopp
