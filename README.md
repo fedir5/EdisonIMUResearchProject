@@ -6,7 +6,8 @@ All the Code Provided is the Code on the Edison board, I haven't included the Ja
 but the code below calculated the sensor's orientation, and begind finding the joint orientations
 
 Files that initially read off sensor data provided by Sparkfun
-from: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library:
+from: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library:  
+
 **LSM9DS0_AHRS.cpp
 LSM9DS0_AHRS.h
 SFE_LSM9DS0.cpp
