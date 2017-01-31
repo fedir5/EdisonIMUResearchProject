@@ -13,7 +13,7 @@ from: https://github.com/sparkfun/SparkFun_9DOF_Block_for_Edison_CPP_Library:
 **SFE_LSM9DS0.h**  
 **SparkFun_9DOF_Edison_Block_Example.cpp**  
 ^Only the SparkFun_9DOF_Edison_Block_Example.cpp code has been heavily edited, the rest are  untouched and are  
-used to pill sensor data from the 9DOF sensor before sending it onwards  
+used to pull sensor data from the 9DOF sensor before sending it onwards  
   
 Data is first passed on to Madgwick's algorithms taken  
 from:http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/  
