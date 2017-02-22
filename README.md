@@ -1,8 +1,23 @@
 # EdisonIMUResearchProject
 
-learning GitHub  
+recent: Added Display Code used to display the results
+**box1.js**
+was an attempt into displaying the box on a web server
+it is called with:
+**Box1h.html**
+However the javascript currently only accepts datalogged values of angles.
+Mosquitto mqtt needs to be added to the javascript in order to communicate with the Edison directly.
+Also it is not certain that the way rotations are done in the javascript is correct, it might not be using Euler angles.
+
+**IMUOrientationDisplay.java**
+Is the working code in java to display the box. The only thing it requires is the box's ip address.
+Mosquitto mqtt libraries for java are necessary in order for it to compile properly,
+as well as Java3d libraries,
+and the j3dcore-ogl.dll is needed (at least on Windows machines) in order for Java3d to work.
+
   
-All the Code Provided is the Code on the Edison board, I haven't included the Java cocde used to display the results yet :/  
+All the C and CPP Code Provided is the Code on the Edison board, 
+All Java and JS code is run on the computer to display the results
 but the code above calculates the sensor's orientation, and begins finding the joint orientations  
   
 Files that initially read off sensor data provided by Sparkfun  
